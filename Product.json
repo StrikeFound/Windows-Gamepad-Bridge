@@ -1,0 +1,12 @@
+{
+  "Name": "Windows-Gamepad-Bridge",
+  "DisplayName": "Windows Gamepad Bridge",
+  "Service": "WindowsGamepadBridge",
+  "DriverFile": "WindowsGamepadBridge.sys",
+  "Version": "0.1.0.0",
+  "InputMask": 0,
+  "ControllerMask": 15,
+  "Packages": [
+    "WindowsGamepadBridgeControl.inf"
+  ]
+}
